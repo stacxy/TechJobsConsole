@@ -58,6 +58,8 @@ namespace TechJobsConsole
                     Console.WriteLine("\nSearch term: ");
                     string searchTerm = Console.ReadLine();
 
+                    searchTerm = searchTerm.ToLower();
+
                     List<Dictionary<string, string>> searchResults;
 
 
